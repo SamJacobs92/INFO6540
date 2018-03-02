@@ -1,0 +1,1006 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5"
+     xmlns:p="#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5">
+        <rdfs:comment>An NBA ontology that describes various teams in the league.</rdfs:comment>
+        <p:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865></p:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865">
+        <rdfs:label xml:lang="en">Definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446 -->
+
+    <owl:ObjectProperty rdf:about="#OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446">
+        <rdfs:domain rdf:resource="#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">represents</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- #OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef -->
+
+    <owl:ObjectProperty rdf:about="#OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">playsAgainst</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- #OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441 -->
+
+    <owl:ObjectProperty rdf:about="#OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441">
+        <rdfs:domain rdf:resource="#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">cheersFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_0ca999c7_5ca6_4acb_a607_d7e7fd50418f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_0ca999c7_5ca6_4acb_a607_d7e7fd50418f">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_f863a7b1_efa3_4787_a073_377ebcd2a36d"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4dbf429_7f0b_45fc_b7a1_4d311b8f6bcf"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">playsFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_a855e449_8b24_49b9_8c47_ed8c99046623 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_a855e449_8b24_49b9_8c47_ed8c99046623">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_c026c0d8_b916_4bcb_b861_6128633b49ab"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <rdfs:label xml:lang="en">isCoachedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_c026c0d8_b916_4bcb_b861_6128633b49ab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_c026c0d8_b916_4bcb_b861_6128633b49ab">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">isCoachOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_f863a7b1_efa3_4787_a073_377ebcd2a36d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_f863a7b1_efa3_4787_a073_377ebcd2a36d">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4dbf429_7f0b_45fc_b7a1_4d311b8f6bcf"/>
+        <rdfs:label xml:lang="en">hasPlayers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b -->
+
+    <owl:Class rdf:about="#OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <rdfs:label xml:lang="en">HeadOffice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- #OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097 -->
+
+    <owl:Class rdf:about="#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Represent their respective NBA team.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Mascots</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- #OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59 -->
+
+    <owl:Class rdf:about="#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Support the team of their choosing.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Fans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_05bb9ebb_76a5_4458_a260_377de1d634dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_05bb9ebb_76a5_4458_a260_377de1d634dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Golden State Warriors.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SteveKerr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1a19e838_77c0_4338_9cd2_11fb869bb30d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Eastern Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SouthEastDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_130a83bf_a1a9_4788_865c_4e29624ef1e8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_130a83bf_a1a9_4788_865c_4e29624ef1e8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Cleveland.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">ClevelandCavaliers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_14599399_a01b_40c3_800e_8d1bddd7e355 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_14599399_a01b_40c3_800e_8d1bddd7e355">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Oklahoma City Thunder.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">BillyDonovan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1a19e838_77c0_4338_9cd2_11fb869bb30d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1a19e838_77c0_4338_9cd2_11fb869bb30d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Teams in the NBA on the East side of the region.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">EasternConference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1ae54af3_0dcb_4902_a68c_8696ff6dfe65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1ae54af3_0dcb_4902_a68c_8696ff6dfe65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA team based in Boston.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">BostonCeltics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2747af3b_11ba_4f78_9a23_d72ef2354d10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2747af3b_11ba_4f78_9a23_d72ef2354d10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Minnesota.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MinnesotaTimberwolves</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a989dfe5_9b1d_4b2e_8102_d2f86c7e39a1"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Western Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">PacificDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_304cf655_865d_49ef_8cde_42a77a117de2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_304cf655_865d_49ef_8cde_42a77a117de2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Milwaukee.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MilwaukeeBucks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_305fb082_f1bd_4fc4_8e3d_a68544222f60 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_305fb082_f1bd_4fc4_8e3d_a68544222f60">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Phoenix Suns.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">JayTriano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_315ce529_d8ff_4f21_89a2_4a45cfa25b81 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_315ce529_d8ff_4f21_89a2_4a45cfa25b81">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Memphis.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MemphisGrizzlies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_364227ea_6612_4bc5_90af_aa7eefb20992 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_364227ea_6612_4bc5_90af_aa7eefb20992">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Atlanta Hawks.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MikeBudenholzer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_3fbdacbc_cf2c_418b_842a_f6e1f15f446d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_3fbdacbc_cf2c_418b_842a_f6e1f15f446d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Milwaukee Bucks.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">JoePrunty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_406f1980_8e90_4b77_b704_2145031ba47a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_406f1980_8e90_4b77_b704_2145031ba47a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Indiana Pacers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">NateMcMillan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_41d50955_0c10_4dc7_ac49_a1c181a389f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_41d50955_0c10_4dc7_ac49_a1c181a389f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Sacramento Kings.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DaveJoerger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_4b2d3b5e_b1c6_4308_a646_6ea52cf49ad9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_4b2d3b5e_b1c6_4308_a646_6ea52cf49ad9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Oklahoma City.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">OklahomaCityThunder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5051f50e_695c_4648_be00_a68e218faa0e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5051f50e_695c_4648_be00_a68e218faa0e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Houston Rockets.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MikeD&apos;Antoni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_564f9133_99c5_4533_886c_bb8ad3afaf62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_564f9133_99c5_4533_886c_bb8ad3afaf62">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of the two NBA teams in Los Angeles.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">LosAngelesLakers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_59c8827b_fbac_482a_b3a5_c1386460e782 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_59c8827b_fbac_482a_b3a5_c1386460e782">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the New Orleans Pelicans.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">AlvinGentry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5a1bf14d_3ad5_4963_a382_0a74b2df20d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5a1bf14d_3ad5_4963_a382_0a74b2df20d5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Toronto Raptors.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DwaneCasey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_60328666_baba_46ad_b446_86417a0460e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_60328666_baba_46ad_b446_86417a0460e1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Memphis Grizzlies.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">JBBickerstaff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_61e3c149_87a2_480d_9942_e410f4a79d2d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_61e3c149_87a2_480d_9942_e410f4a79d2d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Los Angeles Clippers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DocRivers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_68af2735_9cbc_44d2_8c68_0a9893b64b01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_68af2735_9cbc_44d2_8c68_0a9893b64b01">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Minnesota Timberwolves.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">TomThibodeau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1a19e838_77c0_4338_9cd2_11fb869bb30d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Eastern Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">AtlanticDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ae99837_940c_42ca_8608_5607242b94e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ae99837_940c_42ca_8608_5607242b94e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Charlotte.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">CharlotteHornets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6b6fd903_fe99_48a4_8c5a_792d76f15492 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6b6fd903_fe99_48a4_8c5a_792d76f15492">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Boston Celtics.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">BradStevens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_716e5ee2_4a4f_4d5d_9d7f_52da49bc003d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_716e5ee2_4a4f_4d5d_9d7f_52da49bc003d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Indiana.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">IndianaPacers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7527b232_c8e3_49aa_9c6a_ba08b3187c8f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7527b232_c8e3_49aa_9c6a_ba08b3187c8f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Utah Jazz.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">QuinSnyder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_75b7d5c9_b1c5_45a2_877c_bf057ea489d1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_75b7d5c9_b1c5_45a2_877c_bf057ea489d1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Houston.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">HoustonRockets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1a19e838_77c0_4338_9cd2_11fb869bb30d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Eastern Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">CentralDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_796cb22c_b1ab_4ef7_b1cc_2dfc604bd6f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_796cb22c_b1ab_4ef7_b1cc_2dfc604bd6f7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Sacramento.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SacramentoKings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7faab3a4_0723_4724_ae68_8d856cbdde0a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7faab3a4_0723_4724_ae68_8d856cbdde0a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Detroit Pistons.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">StanVanGundy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Leader of the respective team.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Coaches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8755dbda_c508_4658_806f_2df05c62c1c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8755dbda_c508_4658_806f_2df05c62c1c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Brooklyn Nets.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">KennyAtkinson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_89b0c347_d437_48a9_b618_565544c4f78d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_89b0c347_d437_48a9_b618_565544c4f78d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Detroit.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DetroitPistons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8f5f0559_299b_4c82_b9a1_ba78422a2f70 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8f5f0559_299b_4c82_b9a1_ba78422a2f70">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the New York Knicks.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">JeffHornacek</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_93168f0a_2882_40fa_b7f8_90580475e8bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_93168f0a_2882_40fa_b7f8_90580475e8bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in New York.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">NewYorkKnicks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_939e7c8b_3f76_46dd_8f9a_cc5983dad29d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_939e7c8b_3f76_46dd_8f9a_cc5983dad29d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Portland.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">PortlandTrailblazers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_94c21488_5fcd_417b_a681_e1dd1af86051 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_94c21488_5fcd_417b_a681_e1dd1af86051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Atlanta.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">AtlanticHawks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a989dfe5_9b1d_4b2e_8102_d2f86c7e39a1"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Western Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SouthWestDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9e843dc1_1875_4727_b8fc_f3eda58ddfa7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9e843dc1_1875_4727_b8fc_f3eda58ddfa7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Los Angeles Lakers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">LukeWalton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9f3232a5_3b4c_45ca_a825_750f51ae6a17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9f3232a5_3b4c_45ca_a825_750f51ae6a17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Phoenix.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">PhoenixSuns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a53d35e0_f131_4858_82b7_ee75f61122e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a53d35e0_f131_4858_82b7_ee75f61122e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Chicago Bulls.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">FredHoiberg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8234358_569a_46e7_8bcc_d7eaccbf3ff5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8234358_569a_46e7_8bcc_d7eaccbf3ff5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Philadelphia.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Philadelphia76ers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8ae9bb6_8181_45f3_9f48_32224b76df23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8ae9bb6_8181_45f3_9f48_32224b76df23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Philadelphia 76ers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">BrettBrown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a989dfe5_9b1d_4b2e_8102_d2f86c7e39a1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a989dfe5_9b1d_4b2e_8102_d2f86c7e39a1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Teams in the NBA on the West side of the region.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">WesternConference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a9d145f6_bc66_402c_8de5_26176147648c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a9d145f6_bc66_402c_8de5_26176147648c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Orlando Magic.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">FrankVogel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_aa6baecd_a017_4c59_8eae_bf94eef50fb9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_aa6baecd_a017_4c59_8eae_bf94eef50fb9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Denver Nuggets.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MichaelMalone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ab84a83e_19f0_4b6a_9bd5_7d28906287b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ab84a83e_19f0_4b6a_9bd5_7d28906287b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Utah.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">UtahJazz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ac47613f_229a_4b23_a83e_4d1719c833b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ac47613f_229a_4b23_a83e_4d1719c833b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Denver.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DenverNuggets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b20dca7c_9458_4ec0_a673_11d8afb91953 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b20dca7c_9458_4ec0_a673_11d8afb91953">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in San Antonio.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SanAntonioSpurs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4748f87_4fed_41ab_804f_40b30ec800ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4748f87_4fed_41ab_804f_40b30ec800ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Washington.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">WashingtonWizards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4dbf429_7f0b_45fc_b7a1_4d311b8f6bcf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4dbf429_7f0b_45fc_b7a1_4d311b8f6bcf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Athletes that compete in the NBA.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc1ee629_1a7f_4d7e_a193_f333a9e89de3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc1ee629_1a7f_4d7e_a193_f333a9e89de3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Dallas.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">DallasMavericks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc380c65_de8d_4679_8fbe_8654414c3cb4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc380c65_de8d_4679_8fbe_8654414c3cb4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Cleveland Cavaliers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">TyronnLue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bd4362df_baab_461f_8a46_ef1ebaa8a4e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bd4362df_baab_461f_8a46_ef1ebaa8a4e6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Toronto, Canada.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">TorontoRaptors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331">
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>The highest level basketball league in North America.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">NBA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c83788dd_0689_4fbc_843e_9489c5c1b468 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c83788dd_0689_4fbc_843e_9489c5c1b468">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Dallas Mavericks.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">RickCarlisle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ca56a810_996a_4e28_bd22_751cf38f85eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ca56a810_996a_4e28_bd22_751cf38f85eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Miami Heat.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">ErikSpoelstra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_cc644cc7_fded_4e62_ae14_59831dea016f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_cc644cc7_fded_4e62_ae14_59831dea016f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the San Antonio Spurs.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">GreggPopovich</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d22431bf_4390_4e58_b294_d722ec0d48bf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d22431bf_4390_4e58_b294_d722ec0d48bf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Miami.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">MiamiHeat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d4abef75_2197_4747_9114_e700340e830f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d4abef75_2197_4747_9114_e700340e830f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Portland Trail Blazers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">TerryStotts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>A group of people competing in the NBA representing one region.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Teams</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dde27058_f153_41ca_be72_fd8d67b74638 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dde27058_f153_41ca_be72_fd8d67b74638">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Brooklyn.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">BrooklynNets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dfe5eae6_b0e4_4bf9_9004_9a7f3aec0abc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dfe5eae6_b0e4_4bf9_9004_9a7f3aec0abc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Washington Wizards.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">ScottBrooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2c285a1_8e99_44c5_9057_fad7c349d138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2c285a1_8e99_44c5_9057_fad7c349d138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Oakland.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">GoldenStateWarriors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a989dfe5_9b1d_4b2e_8102_d2f86c7e39a1"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of three divisions in the NBA Western Conference.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">NorthWestDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e380478f_c243_4e2f_a3d5_ea512da80542 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e380478f_c243_4e2f_a3d5_ea512da80542">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>One of the two NBA teams in Los Angeles.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">LosAngelesClippers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e4b7d284_1de5_4460_9b02_884a1dc1b2b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e4b7d284_1de5_4460_9b02_884a1dc1b2b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in New Orleans.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">NewOrleansHornets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_eb10d6cc_0ed4_4574_90cc_8aeb1e20f084 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_eb10d6cc_0ed4_4574_90cc_8aeb1e20f084">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Orlando.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">OrlandoMagic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f0ac5d95_c1dd_4f16_ace6_2ffc2cc065db -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f0ac5d95_c1dd_4f16_ace6_2ffc2cc065db">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Charlotte Hornets.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">SteveClifford</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f86c386d_a2d9_4454_af67_21736e223e4f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f86c386d_a2d9_4454_af67_21736e223e4f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>NBA basketball team based in Chicago.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">ChicagoBulls</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_05bb9ebb_76a5_4458_a260_377de1d634dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_14599399_a01b_40c3_800e_8d1bddd7e355"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_305fb082_f1bd_4fc4_8e3d_a68544222f60"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_364227ea_6612_4bc5_90af_aa7eefb20992"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_3fbdacbc_cf2c_418b_842a_f6e1f15f446d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_406f1980_8e90_4b77_b704_2145031ba47a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_41d50955_0c10_4dc7_ac49_a1c181a389f6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5051f50e_695c_4648_be00_a68e218faa0e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_59c8827b_fbac_482a_b3a5_c1386460e782"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_5a1bf14d_3ad5_4963_a382_0a74b2df20d5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_60328666_baba_46ad_b446_86417a0460e1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_61e3c149_87a2_480d_9942_e410f4a79d2d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_68af2735_9cbc_44d2_8c68_0a9893b64b01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6b6fd903_fe99_48a4_8c5a_792d76f15492"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7527b232_c8e3_49aa_9c6a_ba08b3187c8f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_7faab3a4_0723_4724_ae68_8d856cbdde0a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8755dbda_c508_4658_806f_2df05c62c1c5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8f5f0559_299b_4c82_b9a1_ba78422a2f70"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9e843dc1_1875_4727_b8fc_f3eda58ddfa7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a53d35e0_f131_4858_82b7_ee75f61122e0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8ae9bb6_8181_45f3_9f48_32224b76df23"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a9d145f6_bc66_402c_8de5_26176147648c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_aa6baecd_a017_4c59_8eae_bf94eef50fb9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc380c65_de8d_4679_8fbe_8654414c3cb4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c83788dd_0689_4fbc_843e_9489c5c1b468"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ca56a810_996a_4e28_bd22_751cf38f85eb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_cc644cc7_fded_4e62_ae14_59831dea016f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d4abef75_2197_4747_9114_e700340e830f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dfe5eae6_b0e4_4bf9_9004_9a7f3aec0abc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f0ac5d95_c1dd_4f16_ace6_2ffc2cc065db"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_0d4e633e_b6aa_4fb1_9c88_fe4c0b7b0dfc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ad5c200_8a0e_403b_b1ce_871ccac8f694"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_76ae0b7b_f392_4dc1_bb1a_deeb5c919a33"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_130a83bf_a1a9_4788_865c_4e29624ef1e8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_304cf655_865d_49ef_8cde_42a77a117de2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_716e5ee2_4a4f_4d5d_9d7f_52da49bc003d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_89b0c347_d437_48a9_b618_565544c4f78d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_f86c386d_a2d9_4454_af67_21736e223e4f"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_1ae54af3_0dcb_4902_a68c_8696ff6dfe65"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_93168f0a_2882_40fa_b7f8_90580475e8bc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_a8234358_569a_46e7_8bcc_d7eaccbf3ff5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bd4362df_baab_461f_8a46_ef1ebaa8a4e6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_dde27058_f153_41ca_be72_fd8d67b74638"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2747af3b_11ba_4f78_9a23_d72ef2354d10"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_4b2d3b5e_b1c6_4308_a646_6ea52cf49ad9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_939e7c8b_3f76_46dd_8f9a_cc5983dad29d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ab84a83e_19f0_4b6a_9bd5_7d28906287b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_ac47613f_229a_4b23_a83e_4d1719c833b2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_2c1da500_1ee9_429b_8acc_14b9cfe4f079"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9dbd2688_8552_42f3_bc87_b62e2358086d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2ea5702_fe98_4a20_b6d4_aaebc6c1bcea"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_315ce529_d8ff_4f21_89a2_4a45cfa25b81"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_75b7d5c9_b1c5_45a2_877c_bf057ea489d1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b20dca7c_9458_4ec0_a673_11d8afb91953"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_bc1ee629_1a7f_4d7e_a193_f333a9e89de3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e4b7d284_1de5_4460_9b02_884a1dc1b2b9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_564f9133_99c5_4533_886c_bb8ad3afaf62"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_796cb22c_b1ab_4ef7_b1cc_2dfc604bd6f7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_9f3232a5_3b4c_45ca_a825_750f51ae6a17"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e2c285a1_8e99_44c5_9057_fad7c349d138"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_e380478f_c243_4e2f_a3d5_ea512da80542"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_6ae99837_940c_42ca_8608_5607242b94e0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_94c21488_5fcd_417b_a681_e1dd1af86051"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4748f87_4fed_41ab_804f_40b30ec800ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d22431bf_4390_4e58_b294_d722ec0d48bf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_eb10d6cc_0ed4_4574_90cc_8aeb1e20f084"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
