@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5">
-        <rdfs:comment>An NBA ontology that describes various teams in the league.</rdfs:comment>
+        <rdfs:comment>An NBA ontology that outlines the various stakeholders in and around the league.</rdfs:comment>
         <p:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865></p:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
     </owl:Ontology>
     
@@ -44,32 +44,12 @@
     
 
 
-    <!-- #OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446 -->
+    <!-- #OWLObjectProperty_35743b4d_970a_41f7_9f90_992ebb15a5fe -->
 
-    <owl:ObjectProperty rdf:about="#OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446">
-        <rdfs:domain rdf:resource="#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
-        <rdfs:label xml:lang="en">represents</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- #OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef -->
-
-    <owl:ObjectProperty rdf:about="#OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
-        <rdfs:label xml:lang="en">playsAgainst</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- #OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441 -->
-
-    <owl:ObjectProperty rdf:about="#OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441">
-        <rdfs:domain rdf:resource="#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
-        <rdfs:label xml:lang="en">cheersFor</rdfs:label>
+    <owl:ObjectProperty rdf:about="#OWLObjectProperty_35743b4d_970a_41f7_9f90_992ebb15a5fe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <rdfs:label xml:lang="en">manages</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -82,6 +62,36 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_b4dbf429_7f0b_45fc_b7a1_4d311b8f6bcf"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
         <rdfs:label xml:lang="en">playsFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_73fa0ae9_9417_416b_9031_de91c0b84446">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">represents</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_780f34bf_3a06_4a2f_a3da_55a80a8a74ef">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">playsAgainst</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLObjectProperty_9abeb44b_eb98_4337_840a_03545e6a5441">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:label xml:lang="en">cheersFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -128,35 +138,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- #OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b -->
-
-    <owl:Class rdf:about="#OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
-        <rdfs:label xml:lang="en">HeadOffice</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- #OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097 -->
-
-    <owl:Class rdf:about="#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
-        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Represent their respective NBA team.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
-        <rdfs:label xml:lang="en">Mascots</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- #OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59 -->
-
-    <owl:Class rdf:about="#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
-        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Support the team of their choosing.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
-        <rdfs:label xml:lang="en">Fans</rdfs:label>
-    </owl:Class>
     
 
 
@@ -306,6 +287,15 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
         <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Sacramento Kings.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
         <rdfs:label xml:lang="en">DaveJoerger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_47e1386d_194a_4f79_811e_f401c38f4c9b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <rdfs:label xml:lang="en">HeadOffice</rdfs:label>
     </owl:Class>
     
 
@@ -476,6 +466,16 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
         <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Detroit Pistons.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
         <rdfs:label xml:lang="en">StanVanGundy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_828cf561_ae78_4a07_ad20_5c49dd3b6097">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Represent their respective NBA team.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Mascots</rdfs:label>
     </owl:Class>
     
 
@@ -775,6 +775,16 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_8655eca6_df77_47d3_a898_d60ecd41ea29"/>
         <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Head Coach of the Portland Trail Blazers.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
         <rdfs:label xml:lang="en">TerryStotts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_d5cdef02_fde6_4927_91b9_b72e16aeab59">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/untitled-ontology-5#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Support the team of their choosing.</OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Fans</rdfs:label>
     </owl:Class>
     
 
