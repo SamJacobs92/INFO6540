@@ -45,6 +45,16 @@
     
 
 
+    <!-- #OWLObjectProperty_4dc78e56_733a_41d4_852b_b7aa93e27c48 -->
+
+    <owl:ObjectProperty rdf:about="#OWLObjectProperty_4dc78e56_733a_41d4_852b_b7aa93e27c48">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/NBAOntology#OWLClass_d8e6d0d8_e642_4c2e_ade2_7a3fe693f5dd"/>
+        <rdfs:range rdf:resource="#OWLClass_98a4f6a0_f3ce_41e9_8053_1af34e7227dc"/>
+        <rdfs:label xml:lang="en">playsIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/samantha/ontologies/2018/1/NBAOntology#OWLObjectProperty_0ca999c7_5ca6_4acb_a607_d7e7fd50418f -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/samantha/ontologies/2018/1/NBAOntology#OWLObjectProperty_0ca999c7_5ca6_4acb_a607_d7e7fd50418f">
@@ -139,6 +149,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- #OWLClass_98a4f6a0_f3ce_41e9_8053_1af34e7227dc -->
+
+    <owl:Class rdf:about="#OWLClass_98a4f6a0_f3ce_41e9_8053_1af34e7227dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/samantha/ontologies/2018/1/NBAOntology#OWLClass_c6dafb23_d5ca_478c_80b4_f7c843b75331"/>
+        <NBAOntology:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>Facilities in which the games take place.</NBAOntology:OWLAnnotationProperty_ad972238_da0c_486f_8bc5_71161d460865>
+        <rdfs:label xml:lang="en">Arenas</rdfs:label>
+    </owl:Class>
     
 
 
